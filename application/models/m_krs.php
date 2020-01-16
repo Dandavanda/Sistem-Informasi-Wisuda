@@ -33,7 +33,7 @@ class M_krs extends CI_Model {
 
    public function krs_edit(){
         
-        $id = $this->input->post('id_krs');
+        $id = $this->input->post('id');
         $data_krs = array(
             'id_krs' => $this->input->post('id_krs'),
                     'nim' => $this->input->post('nim'),

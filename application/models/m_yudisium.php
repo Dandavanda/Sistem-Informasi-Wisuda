@@ -35,7 +35,7 @@ class M_yudisium extends CI_Model {
    }
 
    public function yudisium_edit(){
-        $id = $this->input->post('id_yudisium');
+        $id = $this->input->post('id');
 
         $data_yudisium = array(
                     'id_yudisium' => $this->input->post('id_yudisium'),

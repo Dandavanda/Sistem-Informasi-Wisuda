@@ -32,7 +32,7 @@ class M_pendadaran extends CI_Model {
    }
 
    public function pendadaran_edit(){
-        $id = $this->input->post('id_pendadaran');
+        $id = $this->input->post('id');
 
         $data_pendadaran = array(
             'id_pendadaran' => $this->input->post('id_pendadaran'),
