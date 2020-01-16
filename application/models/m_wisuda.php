@@ -31,7 +31,7 @@ class M_wisuda extends CI_Model {
    }
 
    public function wisuda_edit(){
-        $id = $this->input->post('id_wisuda');
+        $id = $this->input->post('id');
 
         $data_wisuda = array(
                     'nim' => $this->input->post('nim'),
