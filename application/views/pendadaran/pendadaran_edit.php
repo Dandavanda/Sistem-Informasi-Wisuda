@@ -8,7 +8,7 @@
 		<input type="hidden" name="id" value="<?= $data_pendadaran->id_pendadaran; ?>">
 		<div class="form-group">
 			<label>Hari / Tanggal</label>
-			<input type="text" class="form-control" name="waktu" value="<?= $data_pendadaran->hari_tanggal; ?>">
+			<input type="text" class="form-control" name="hari_tanggal" value="<?= $data_pendadaran->hari_tanggal; ?>">
 		</div>
 		<div class="form-group">
 			<label>Jam</label>
@@ -32,7 +32,7 @@
 		</div>
 		<div class="form-group">
 			<label>Dosen Pendamping</label>
-			<input type="text" class="form-control" name="dosen" value="<?= $data_pendadaran->dosen_pendamping; ?>">
+			<input type="text" class="form-control" name="dosen_pendamping" value="<?= $data_pendadaran->dosen_pendamping; ?>">
 		</div>
 		<div>
 		<button type="submit" class="btn btn-primary">Submit</button>
