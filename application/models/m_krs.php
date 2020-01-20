@@ -45,13 +45,13 @@ class M_krs extends CI_Model {
         );
         $this->db->where('id_krs', $id);
         $this->db->update('krs', $data_krs);    
-        redirect('krs/view_ks');
+        redirect('krs/view_krs');
 
-        $id = $this->input->post('id', true);
-        $menu = $this->input->post('menu', true);
-        $this->db->set('menu', $menu);
-        $this->db->where('id', $id);
-        $this->db->update('user_menu');
+        // $id = $this->input->post('id', true);
+        // $menu = $this->input->post('menu', true);
+        // $this->db->set('menu', $menu);
+        // $this->db->where('id', $id);
+        // $this->db->update('user_menu');
    }
 
    public function hapus_krs($id){
