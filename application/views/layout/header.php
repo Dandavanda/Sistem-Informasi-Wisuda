@@ -17,7 +17,7 @@
             <!-- Nav Item - User Information -->
             
             <li>
-            <a href="<?php echo base_url('login/logout'); ?>"><button class="btn btn-primary">Logout</button></a>
+            <a href="<?php echo base_url(''); ?>"><button class="btn btn-primary">Logout</button></a>
             </li>
           </ul>
         </nav>
