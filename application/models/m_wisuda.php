@@ -9,8 +9,6 @@ class M_wisuda extends CI_Model {
    public function get_all_data(){
        $this->db->order_by('id_wisuda', 'desc');
        return $this->db->get('wisuda')->result();
-    //    $query = $this->db->get('wisuda');
-    //    return $query->result();
    }
 
    public function wisuda_add()
