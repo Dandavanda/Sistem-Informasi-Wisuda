@@ -2,7 +2,7 @@
 <div class="container-fluid">
 	<!-- Page Heading -->
 	<h1 class="h3 mb-4 text-gray-800">Edit krs</h1>
-<form method="post" action="">
+<form method="post" action="<?= base_url('krs/krs_edit_act') ?>">
 
 		<!-- Simpan id -->
         <input type="hidden" name="id" value="<?= $data_krs->id_krs; ?>">
@@ -12,7 +12,7 @@
 		</div>
 		<div class="form-group">
 			<label>Nama Mahasiswa</label>
-			<input type="text" class="form-control" name="nama" value="<?= $data_krs->nama_mhs; ?>">
+			<input type="text" class="form-control" name="nama_mhs" value="<?= $data_krs->nama_mhs; ?>">
 		</div>
 		<div class="form-group">
 			<label>Semester</label>
