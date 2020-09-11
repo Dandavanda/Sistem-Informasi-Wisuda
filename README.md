@@ -1,4 +1,4 @@
-# finalprojectweb
+# Sistem Informasi 
 sistem informasi krs, pendadaran, yudisium, wisuda
 
 ### database 
